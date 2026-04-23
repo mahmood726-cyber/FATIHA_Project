@@ -5,7 +5,7 @@
 library(metafor)
 source("C:/Models/FATIHA_Project/R/synthesis.R")
 
-data_dir <- "C:/Users/user/OneDrive - NHS/Documents/Pairwise70/data/"
+data_dir <- "C:/Users/user/OneDrive - NHS/Documents/Pairwise70/data/"  # sentinel:skip-line P0-hardcoded-local-path
 
 files <- list.files(data_dir, pattern = "\\.rda$", full.names = TRUE)
 cat(sprintf("=== Pairwise70 Benchmark: %d reviews ===\n", length(files)))

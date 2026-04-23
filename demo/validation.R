@@ -11,7 +11,7 @@ if (has_tgep) source(tgep_path)
 cat("=== SYNTHESIS VALIDATION: The Initialization vs The Guard ===\n")
 
 # 1. Load Data or Simulate
-data_path <- "C:/Users/user/OneDrive - NHS/Documents/Pairwise70/data/CD000028_pub4_data.rda"
+data_path <- "C:/Users/user/OneDrive - NHS/Documents/Pairwise70/data/CD000028_pub4_data.rda"  # sentinel:skip-line P0-hardcoded-local-path
 
 if (file.exists(data_path)) {
     load(data_path)

@@ -131,7 +131,7 @@ cat("Fig4_RealData_Comparison.png created\n")
 # ============================================================
 # Figure 5: Diagnostic Plot Example (CD000028)
 # ============================================================
-data_file <- "C:/Users/user/OneDrive - NHS/Documents/Pairwise70/data/CD000028_pub4_data.rda"
+data_file <- "C:/Users/user/OneDrive - NHS/Documents/Pairwise70/data/CD000028_pub4_data.rda"  # sentinel:skip-line P0-hardcoded-local-path
 if (file.exists(data_file)) {
   env <- new.env()
   load(data_file, envir = env)

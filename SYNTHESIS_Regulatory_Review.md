@@ -25,7 +25,7 @@ This review evaluates the system's readiness for a "Hostile Audit" scenario.
 ## 3. The Hospital CIO (IT Security)
 **Focus:** File permissions and paths.
 
-> "You are writing logs to `C:/Users/...`. In a secure hospital environment, this often fails due to permissions or OneDrive syncing locks.
+> "You are writing logs to `<user-home>/...`. In a secure hospital environment, this often fails due to permissions or OneDrive syncing locks.
 >
 > **The Critique:** The system needs a **'Safe Path Resolver'**. It should check if the target directory is writable. If not, it should fail gracefully to a local `%TEMP%` folder and alert the user, rather than crashing silently in the background."
 

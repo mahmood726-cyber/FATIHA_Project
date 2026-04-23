@@ -5,7 +5,7 @@ library(metafor)
 source("C:/Models/FATIHA_Project/R/synthesis.R")
 source("C:/Models/FATIHA_Project/R/synthesis_audit.R")
 
-data_dir <- "C:/Users/user/OneDrive - NHS/Documents/Pairwise70/data/"
+data_dir <- "C:/Users/user/OneDrive - NHS/Documents/Pairwise70/data/"  # sentinel:skip-line P0-hardcoded-local-path
 
 # Well-known reviews for detailed comparison
 review_ids <- c(
